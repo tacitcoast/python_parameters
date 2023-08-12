@@ -15,7 +15,7 @@ def browser_management():
 
 
 # Задание: сделайте разные фикстуры для каждого теста, которые выставят размеры окна браузера
-@pytest.fixture(params=[(1920, 1080), (1600, 1024), (1400, 1050), (3456, 2234)], ids=['Full HD', 'WSXGA', 'SXGA+', 'Macbook Pro 16'])
+@pytest.fixture(params=[(1920, 1080), (1600, 1024), (1400, 1050), (3840, 2160), (3456, 2234)], ids=['Full HD', 'WSXGA', 'SXGA+', '4K', 'Macbook Pro 16'])
 def setup_desktop_screen(request):
     browser.config.window_width, browser.config.window_height = request.param
 
