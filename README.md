@@ -23,4 +23,4 @@ ___
 
 [How to parametrize fixtures and test functions](https://docs.pytest.org/en/7.1.x/how-to/parametrize.html)
 
-![Video_Standards svg](https://github.com/tacitcoast/python_parameters/assets/44261093/af5ae72b-cb0d-4e14-a00a-f70797b68df8)
+<img src="https://github.com/tacitcoast/python_parameters/assets/44261093/af5ae72b-cb0d-4e14-a00a-f70797b68df8" width="500">
